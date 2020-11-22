@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+order:
+  mock: http://localhost:7300/mock/5fba1bc30837be0026f52d15/cloud
+  testName: abc(\u914D\u7F6E\u6587\u4EF6)
+  testName2: \u914D\u7F6E\u6587\u4EF6\u53C2\u65702
